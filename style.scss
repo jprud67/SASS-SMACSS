@@ -1,0 +1,28 @@
+/*
+ * SMACSS + SCSS starter 
+ * Inspired by SMACSS http://smacss.com
+ * Author: @jprud67
+ *
+ *
+ */
+
+/* Site config */
+@import "variables";
+
+/* Vendor */
+//@import "vendor/bootstrap";
+//@import "vendor/foundation";
+
+/* Override */
+//@import "vendor-override/bootsrap";
+//@import "vendor-override/foundation";
+
+/* Base */
+@import "base";
+@import "normalize";
+
+/* Layouts */
+@import "layout/constrained";
+
+/* Modules */
+@import "modules/box";
